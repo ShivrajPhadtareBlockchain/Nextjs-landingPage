@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="flex items-center justify-center px-5 py-5">
         <h2 className="text-white font-semibold text-lg">Connect</h2>
       </div>
-      <hr />
+      <div className="bg-slate-400 w-full h-px"></div>
       <div className="flex items-center justify-between px-5 py-5">
         <p className="text-white">All rights reserved</p>
         <div className="flex items-center justify-center">
