@@ -27,7 +27,6 @@ const Header = () => {
             color: {
               value: "#fff",
             },
-            
           },
           fpsLimit: 120,
           interactivity: {
@@ -72,8 +71,8 @@ const Header = () => {
               outModes: {
                 default: "bounce",
               },
-              random: false,
-              speed: 2,
+              random: true,
+              speed: 1,
               straight: false,
             },
             number: {
@@ -96,7 +95,16 @@ const Header = () => {
           detectRetina: true,
         }}
       />
-      <h1 className="text-9xl text-center font-bold w-2/3 my-10">The Next Generation <span className="text-red-600"> Blockchain</span> Techology</h1>
+      <div className="flex items-center justify-center ">
+        <h1 className="text-7xl text-center font-bold w-2/3 my-80 text-[#15171A]">
+          The Next Generation{" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-500">
+            {" "}
+            Blockchain
+          </span>{" "}
+          Techology
+        </h1>
+      </div>
     </div>
   );
 };
