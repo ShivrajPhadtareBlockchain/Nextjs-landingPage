@@ -18,10 +18,10 @@ const Navbar = () => {
           <Link href="/">
             <li className="text-slate-400 hover:text-white list-none mx-5 text-lg">Home</li>
           </Link>
-          <Link href="/about">
+          <Link href="/#about">
             <li className="text-slate-400 hover:text-white list-none mx-5 text-lg">About us</li>
           </Link>
-          <Link href="/contact">
+          <Link href="/#contact">
             <li className="text-slate-400 hover:text-white list-none mx-5 text-lg">Contact</li>
           </Link>
         </ul>
