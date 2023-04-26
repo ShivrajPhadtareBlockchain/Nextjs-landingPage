@@ -2,9 +2,9 @@ import React from "react";
 
 const Contact = () => {
   return (
-    
-    
-    <section className="text-gray-600 body-font relative bg-[#15171a60] pt-5">
+    <>
+    <div style={{backgroundColor: "#FFFFFF"}}>
+    <section className="text-gray-600 body-font relative bg-[#f2f2f2] pt-5">
       <h1 className="flex items-center justify-center font-bold text-5xl text-[#15171A]"> <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-500">CONTACT &nbsp;</span>US</h1>
       <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
@@ -16,9 +16,7 @@ const Contact = () => {
             title="map"
             marginheight="0"
             marginwidth="0"
-            src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
-            // style="filter: grayscale(1) contrast(1.2) opacity(0.4);"
-          ></iframe>
+            src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"></iframe>
           <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
@@ -92,6 +90,8 @@ const Contact = () => {
         </div>
       </div>
     </section>
+    </div>
+    </>
   );
 };
 

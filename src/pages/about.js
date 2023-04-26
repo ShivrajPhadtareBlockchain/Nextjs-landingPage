@@ -4,6 +4,7 @@ import React from "react";
 const AboutUs = () => {
   return (
     <>
+    <div style={{backgroundColor: "#FFFFFF"}}>
       <section className="text-gray-600 body-font">
         <h1 className="flex items-center justify-center font-bold text-5xl text-[#15171A]">
           OUR&nbsp;
@@ -347,6 +348,7 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
+      </div>
     </>
   );
 };
