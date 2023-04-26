@@ -36,17 +36,17 @@ const Navbar = () => {
       <div className="flex items-center justify-center py-4 shadow-xl">
         <ul className="flex items-center justify-center">
           <Link href="/">
-            <li className="hover:text-[#ccc] text-white list-none mx-5 text-sm font-medium">
+            <li className="hover:text-[#ccc] text-white list-none mx-5 text-base font-medium">
               Home
             </li>
           </Link>
           <Link href="/#about">
-            <li className="hover:text-[#ccc] text-white list-none mx-5 text-sm font-medium">
+            <li className="hover:text-[#ccc] text-white list-none mx-5 text-base font-medium">
               About us
             </li>
           </Link>
           <Link href="/#contact">
-            <li className="hover:text-[#ccc] text-white list-none mx-5 text-sm font-medium">
+            <li className="hover:text-[#ccc] text-white list-none mx-5 text-base font-medium">
               Contact
             </li>
           </Link>
