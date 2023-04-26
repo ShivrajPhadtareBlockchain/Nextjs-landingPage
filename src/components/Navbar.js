@@ -23,10 +23,10 @@ const Navbar = () => {
           />
         </div>
         <div className="">
-          <button className={`hover:text-[#ccc] text-white text-base font- mr-2`}>
+          <button className={`hover:text-[#ccc] text-white text-sm font- mr-2`}>
             Sign in
           </button>
-          <button className={`${inter.className} text-[#15171A] bg-white rounded-full  px-4 py-1 font-medium hover:bg-[#f6f6f6] ml-2`}>
+          <button className={`${inter.className} text-[#15171A] bg-white rounded-full  px-4 py-1 text-sm font-medium hover:bg-[#f6f6f6] ml-2`}>
             Subscribe
           </button>
         </div>
@@ -36,17 +36,17 @@ const Navbar = () => {
       <div className="flex items-center justify-center py-4 shadow-xl">
         <ul className="flex items-center justify-center">
           <Link href="/">
-            <li className="hover:text-[#ccc] text-white list-none mx-5 text-base font-medium">
+            <li className="hover:text-[#ccc] text-white list-none mx-5 text-sm font-medium">
               Home
             </li>
           </Link>
           <Link href="/#about">
-            <li className="hover:text-[#ccc] text-white list-none mx-5 text-base font-medium">
+            <li className="hover:text-[#ccc] text-white list-none mx-5 text-sm font-medium">
               About us
             </li>
           </Link>
           <Link href="/#contact">
-            <li className="hover:text-[#ccc] text-white list-none mx-5 text-base font-medium">
+            <li className="hover:text-[#ccc] text-white list-none mx-5 text-sm font-medium">
               Contact
             </li>
           </Link>
